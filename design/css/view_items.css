@@ -1,16 +1,57 @@
+body{
+    width: 100%;
+    height: auto;
+    margin:auto;
+    padding:auto;
+    color: #191970;
+    font-size: 14px;
+    background: #F5F5F5;
+}
+
+.header{
+    position: fixed;
+    top:0px;
+    border: 0px dashed white;
+    background:#800000;
+    height: 30px;
+    border: 0px solid red;
+    width: 100%;
+    text-align: left;
+    color:white;
+    font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
+    font-size: 16px; 
+    text-transform: uppercase;
+    text-indent: 20px;
+    padding-top: 5px;
+}
+
+.logoutButton{
+    margin-left: 80%;
+    margin-top: -20px;
+}
+
+.newItemButton{
+    margin-left: 85%;
+    margin-top: -20px;
+}
+
 nav{
     list-style: none;
+    margin-top:0px;
+    margin-left:-30px;
 }
 
 nav li{
-    display: inline-table;
+    display: inline;
     text-align: left;
 }
 
 .items{
-    border:0px solid red;
+    border: 2px solid grey;
     height:auto;
-    width:700px;
+    width:fit-content;
+    margin:auto;
+    margin-top: 50px;
 }
 
 /* Tables */
