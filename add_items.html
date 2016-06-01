@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add new item</title>
+    <link rel="stylesheet" href="design/css/add_items.css">
+</head>
+<body>
+  <div class="content">
+    Product Backlog item
+    <div class="item_title">
+      <label for="" id="id_lbl">29</label>
+      <input type="text" id="title">
+    </div>
+    <div class="item_state">
+      <select>
+        <option value="new">New</option>
+        <option value="approved">Approved</option>
+        <option value="commited">Commited</option>
+        <option value="done">Done</option>
+      </select>
+    </div>
+    <div class="item_description">
+      <label for="" id="desc_lbl">Description</label>
+      <textarea id="description" rows="10" cols="50"></textarea>
+      <div class="item_details">
+        <label for="">Details</label>
+        <hr>
+        <label for="">Priority</label><br>
+        <div class="priority">
+          <select>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+          </select>
+        </div>
+        <label for="">Effort</label>
+      </div>
+    </div>
+    <div class="item_acceptance_criteria">
+      <label for="" id="acceptCrit_lbl">Acceptance Criteria</label></br>
+      <textarea id="acceptance_criteria" rows="10" cols="50"></textarea>
+      <br>
+      <button type="button" id="add_button">Add</button>
+    </div>
+  </div>
+</body>
+</html>
